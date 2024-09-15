@@ -1,6 +1,8 @@
 //CSS
 import 'semantic-ui-css/semantic.min.css'
+import 'react-calendar/dist/Calendar.css'
 import './app/layout/styles.css'
+
 //Component
 import React from 'react'
 import ReactDOM from 'react-dom/client'
