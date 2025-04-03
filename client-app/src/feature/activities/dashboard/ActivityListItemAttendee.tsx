@@ -8,6 +8,7 @@ import ProfileCard from "../../profiles/ProfileCard";
 interface Props{
     attendees: Profile[];
 }
+
 export default observer(function ActivitiyListItemAttendee({attendees}: Props){
     return (
         <List horizontal>

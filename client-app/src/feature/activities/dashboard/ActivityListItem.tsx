@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 import { format } from 'date-fns';
 import ActivityListItemAttendee from './ActivityListItemAttendee';
 
-
 interface Props{
     activity: Activity
 }

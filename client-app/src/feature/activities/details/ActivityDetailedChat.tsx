@@ -56,6 +56,5 @@ export default observer(function ActivityDetailedChat() {
                 </Comment.Group>
             </Segment>
         </>
-
     )
 })

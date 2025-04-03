@@ -4,16 +4,9 @@ import { useStore } from "../../../app/stores/store";
 import { observer } from "mobx-react-lite";
 import ActivityListItem from "./ActivityListItem";
 
-
-
-
-
-export default observer(
-    function ActivityList(){
-
+export default observer(function ActivityList(){
         const {activityStore} = useStore();
         const {groupedActivities} = activityStore
-
 
         return(
             <>
@@ -24,8 +17,7 @@ export default observer(
                         </Header>
                         {activities.map(activity =>(
                             <ActivityListItem key={activity.id} activity={activity} />
-                        ))}
-                            
+                        ))}                            
                     </Fragment>
                 ))}
             </>
